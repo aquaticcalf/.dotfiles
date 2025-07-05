@@ -6,6 +6,7 @@ dunst
 efibootmgr
 git
 github-cli
+go
 grim
 grub
 gst-plugin-pipewire
