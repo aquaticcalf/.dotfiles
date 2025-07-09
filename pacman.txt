@@ -1,6 +1,8 @@
 base
 base-devel
+brightnessctl
 chromium
+cmake
 dolphin
 dunst
 efibootmgr
@@ -12,6 +14,7 @@ grub
 gst-plugin-pipewire
 htop
 hyprland
+hyprpaper
 intel-media-driver
 intel-ucode
 iwd
@@ -22,6 +25,9 @@ libva-intel-driver
 linux
 linux-firmware
 nano
+neovim
+ninja
+noto-fonts-emoji
 openssh
 paru
 paru-debug
@@ -36,11 +42,13 @@ sddm
 slurp
 smartmontools
 sof-firmware
+unzip
 uwsm
 vim
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
+waybar
 wget
 wireless_tools
 wireplumber

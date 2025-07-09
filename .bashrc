@@ -17,3 +17,16 @@ alias config="/usr/bin/git --git-dir='$HOME/.dotfiles/' --work-tree='$HOME'"
 alias install="sudo pacman -S"
 alias remove="sudo pacman -R"
 alias freeze="sudo pacman -Qqe > ~/pacman.txt && echo 'done, see ~/pacman.txt'"
+
+# rust
+. "$HOME/.cargo/env"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# opencode
+export PATH=/home/sam/.opencode/bin:$PATH
+
+# lvim
+export PATH=/home/sam/.local/bin:$PATH
